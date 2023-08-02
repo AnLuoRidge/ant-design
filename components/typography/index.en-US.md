@@ -37,7 +37,7 @@ Basic text writing, including headings, body text, lists, and more.
 | copyable | Whether to be copyable, customize it via setting an object | boolean \| [copyable](#copyable) | false | [copyable](#copyable) |
 | delete | Deleted line style | boolean | false |  |
 | disabled | Disabled content | boolean | false |  |
-| editable | If editable. Can control edit state when is object | boolean \| [editable](#editable) | false | [editable](#editable) |
+| editable | Whether the content is editable. Can control the edit state by using an object | boolean \| [editable](#editable) | false | [editable](#editable) |
 | ellipsis | Display ellipsis when text overflows，can't configure expandable、rows and onExpand by using object. Diff with Typography.Paragraph, Text do not have 100% width style which means it will fix width on the first ellipsis. If you want to have responsive ellipsis, please set width manually | boolean \| [Omit<ellipsis, 'expandable' \| 'rows' \| 'onExpand'>](#ellipsis) | false | [ellipsis](#ellipsis) |
 | keyboard | Keyboard style | boolean | false | 4.3.0 |
 | mark | Marked style | boolean | false |  |
@@ -55,7 +55,7 @@ Basic text writing, including headings, body text, lists, and more.
 | copyable | Whether to be copyable, customize it via setting an object | boolean \| [copyable](#copyable) | false | [copyable](#copyable) |
 | delete | Deleted line style | boolean | false |  |
 | disabled | Disabled content | boolean | false |  |
-| editable | If editable. Can control edit state when is object | boolean \| [editable](#editable) | false | [editable](#editable) |
+| editable | Whether the content is editable. Can control the edit state by using an object | boolean \| [editable](#editable) | false | [editable](#editable) |
 | ellipsis | Display ellipsis when text overflows, can configure rows and expandable by using object | boolean \| [ellipsis](#ellipsis) | false | [ellipsis](#ellipsis) |
 | level | Set content importance. Match with `h1`, `h2`, `h3`, `h4`, `h5` | number: 1, 2, 3, 4, 5 | 1 | 5: 4.6.0 |
 | mark | Marked style | boolean | false |  |
@@ -72,7 +72,7 @@ Basic text writing, including headings, body text, lists, and more.
 | copyable | Whether to be copyable, customize it via setting an object | boolean \| [copyable](#copyable) | false | [copyable](#copyable) |
 | delete | Deleted line style | boolean | false |  |
 | disabled | Disabled content | boolean | false |  |
-| editable | If editable. Can control edit state when is object | boolean \| [editable](#editable) | false | [editable](#editable) |
+| editable | Whether the content is editable. Can control the edit state by using an object | boolean \| [editable](#editable) | false | [editable](#editable) |
 | ellipsis | Display ellipsis when text overflows, can configure rows and expandable by using object | boolean \| [ellipsis](#ellipsis) | false | [ellipsis](#ellipsis) |
 | mark | Marked style | boolean | false |  |
 | onClick | Set the handler to handle click event | (event) => void | - |  |
